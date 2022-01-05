@@ -1,0 +1,53 @@
+### oh-my-zsh config ###
+export ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="robbyrussell"
+
+# history timestamps
+HIST_STAMPS="yyyy-mm-dd"
+
+# oh-my-zsh plugins
+plugins=(git python pip nvm colored-man-pages docker)
+
+source $ZSH/oh-my-zsh.sh
+
+source ~/.dotfiles/zsh/variables.zsh
+
+# $PATH
+source ~/.dotfiles/zsh/path.zsh
+
+# nvm
+source ~/.dotfiles/zsh/nvm.zsh
+
+### EDITOR (vim) ###
+export VISUAL="vim"
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi
+
+### THE FUCK  ###
+eval $(thefuck --alias)
+
+### ALIASES ###
+source ~/.dotfiles/zsh/alias.zsh
+
+### LOCAL Environment ###
+if [ -f ~/.dotfiles/zsh/local.zsh ]; then
+	source ~/.dotfiles/zsh/local.zsh
+fi
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+## ruby rbenv
+#eval "$(rbenv init -)"
+
+## java jenv 
+#eval "$(jenv init -)"
+

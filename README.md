@@ -7,3 +7,10 @@ Ubuntu 20.04 WSL dotfiles
 3. copy and edit `.gitconfig.local`: `cp ~/.dotfiles/git/gitconfig.local && vim ~/.gitconfig.local`
 4. link vim config `ln -s ~/.dotfiles/vim/vimrc ~/.vimrc`
 
+### zsh
+1. install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+2. install `thefuck`: `sudo apt-get install thefuck`
+3. remove zshrc: `rm ~/.zshrc`
+4. link zshconfig `ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc`
+
+
