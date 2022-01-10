@@ -16,9 +16,6 @@ source ~/.dotfiles/zsh/variables.zsh
 # $PATH
 source ~/.dotfiles/zsh/path.zsh
 
-# nvm
-source ~/.dotfiles/zsh/nvm.zsh
-
 ### EDITOR (vim) ###
 export VISUAL="vim"
 
@@ -35,19 +32,11 @@ eval $(thefuck --alias)
 ### ALIASES ###
 source ~/.dotfiles/zsh/alias.zsh
 
+# nvm
+source ~/.dotfiles/zsh/nvm.zsh
+
 ### LOCAL Environment ###
 if [ -f ~/.dotfiles/zsh/local.zsh ]; then
 	source ~/.dotfiles/zsh/local.zsh
 fi
-
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-## ruby rbenv
-#eval "$(rbenv init -)"
-
-## java jenv 
-#eval "$(jenv init -)"
 
