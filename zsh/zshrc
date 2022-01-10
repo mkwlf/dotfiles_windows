@@ -35,6 +35,9 @@ source ~/.dotfiles/zsh/alias.zsh
 # nvm
 source ~/.dotfiles/zsh/nvm.zsh
 
+# pyenv
+source ~/.dotfiles/zsh/pyenv.zsh
+
 ### LOCAL Environment ###
 if [ -f ~/.dotfiles/zsh/local.zsh ]; then
 	source ~/.dotfiles/zsh/local.zsh
