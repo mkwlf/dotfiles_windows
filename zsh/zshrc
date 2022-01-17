@@ -38,6 +38,9 @@ source ~/.dotfiles/zsh/nvm.zsh
 # pyenv
 source ~/.dotfiles/zsh/pyenv.zsh
 
+# phpenv
+source ~/.dotfiles/zsh/phpenv.zsh
+
 ### LOCAL Environment ###
 if [ -f ~/.dotfiles/zsh/local.zsh ]; then
 	source ~/.dotfiles/zsh/local.zsh
