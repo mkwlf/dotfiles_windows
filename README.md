@@ -13,4 +13,9 @@ Ubuntu 20.04 WSL dotfiles
 3. remove zshrc: `rm ~/.zshrc`
 4. link zshconfig `ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc`
 
+### environments
+1. install [nvm](https://github.com/nvm-sh/nvm) for node version management
+2. install [pyenv](https://github.com/pyenv/pyenv) for python version management
+3. install [phpenv](https://github.com/phpenv/phpenv) via installer for php version management
+
 
