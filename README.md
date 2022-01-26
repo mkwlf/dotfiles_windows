@@ -20,3 +20,10 @@ Ubuntu 20.04 WSL dotfiles
 3. install [phpenv](https://github.com/phpenv/phpenv) via installer for php version management
 
 
+#### phpenv issues
+Forgot most of the steps to install php 8.x via phpenv. 
+Try to install a php version for example via `phpenv install 8.1.1` and resolve missing package issues as they come.
+If you get stuck make use of the `-v` option on installing. This way I was able to make out the issue, that autoconf was
+not installed: `sudo apt-get install autoconf`.
+
+

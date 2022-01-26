@@ -46,3 +46,5 @@ if [ -f ~/.dotfiles/zsh/local.zsh ]; then
 	source ~/.dotfiles/zsh/local.zsh
 fi
 
+# Starship
+eval "$(starship init zsh)"
