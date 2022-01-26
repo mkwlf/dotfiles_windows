@@ -12,6 +12,7 @@ Ubuntu 20.04 WSL dotfiles
 2. install `thefuck`: `sudo apt-get install thefuck`
 3. remove zshrc: `rm ~/.zshrc`
 4. link zshconfig `ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc`
+5. install [starship](https://github.com/starship/starship)
 
 ### environments
 1. install [nvm](https://github.com/nvm-sh/nvm) for node version management
