@@ -11,8 +11,6 @@ plugins=(git python pip nvm colored-man-pages docker)
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/.dotfiles/zsh/variables.zsh
-
 # $PATH
 source ~/.dotfiles/zsh/path.zsh
 
