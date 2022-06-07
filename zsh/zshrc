@@ -39,6 +39,9 @@ source ~/.dotfiles/zsh/pyenv.zsh
 # phpenv
 source ~/.dotfiles/zsh/phpenv.zsh
 
+# dotnet
+source ~/.dotfiles/zsh/dotnet.zsh
+
 ### LOCAL Environment ###
 if [ -f ~/.dotfiles/zsh/local.zsh ]; then
 	source ~/.dotfiles/zsh/local.zsh
